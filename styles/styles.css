@@ -42,6 +42,12 @@ button i {
 main section {
   margin-bottom: 100px;
 }
+.section-title, .section-description {
+  text-align: center; 
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
 /* Header styles  */
 header {
   background-image: url("../images/developer.png"),
@@ -92,26 +98,46 @@ nav ul li a {
   margin-bottom: -5px;
 }
 
-main{
+main {
   margin: 0 200px;
 }
-.about-me{
+
+/* About Me Styles */
+
+.about-me {
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
 }
-#about{
+#about {
   margin: 80px;
   padding: 20px;
   background-color: white;
   border-radius: 10px;
   text-align: center;
 }
-.box-row{
+.box-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
+}
+
+/* What I Do Styles  */
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 200px;
+  /* border: 1px solid black; */
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.1);
 }
